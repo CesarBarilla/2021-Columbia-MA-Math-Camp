@@ -46,10 +46,25 @@ Here is a tentative course outline :
 6. Optimization
 7. Probability
 
-Lectures notes will be posted shortly.
+Lectures notes will be posted soon.
 
 ### References and Textbooks
 
+Two very useful short introductions to mathematical proofs.
 
+Lecture notes from last year's math camp are available [here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/2020%20Lecture%20Notes).
+
+Some useful textbooks and other references include :
+* Knut Sydsaeter, Peter Hammond, and Andrés Carvajal. "Esssential mathematics for economic analysis.", 5th Edition, (2008). 
+* Knut Sydsaeter, Peter Hammond, Atle Seierstad and and Arne Strøm. "Further mathematics for economic analysis.", 2nd Edition, (2008). 
+* Rudin, Walter. "Principles of Mathematical Analysis (International Series in Pure & Applied Mathematics)." (1976).
+* Treil, Sergei. "Linear Algebra Done Wrong." (2014) (available for free online at http://www.math.brown.edu/⇠treil/papers/LADW/LADW-2014-09)
+* Lang, Serge. "Linear Algebra. Undergraduate texts in mathematics." (2004).
+* Sundaram, Rangarajan K. "A First Course in Optimization Theory." (1996). 
+* Ok, Efe A. "Real Analysis with Economic Applications." (2007). 
+* Stokey, Nancy L., Robert E. Lucas Jr, and Edward C, Prescott. "Recursive Methods in Economic Dynamics." (1989).
+* Wälde, Klaus, "Applied Intertemporal Optimization" (2020), available online for free at <https://www.macro.economics.uni-mainz.de/klaus-waelde/waelde-klaus-applied-intertemporal-optimization/>
 
 ### Past Exams and Problem Sets
+
+You can find [Past Exams Here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/Past%20Exams) and [Past Problem Sets here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/Past%20Problem%20Sets).

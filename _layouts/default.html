@@ -40,12 +40,12 @@
         </ul>
         {% endif %}
 
-        <h2> Table of Contents </h2>
-        <p class="view"><ul list-style: none>
+        <h4> Table of Contents </h4>
+        <p class="view"><ul class="sidebartoc">
           <li><a href="https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/#course-information"> Information</a></li>
           <li><a href="https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/#overview-of-the-course"> Course Overview</a></li>
           <li><a href="https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/#course-material"> Course Material </a></li>
-          <ul list-style: none>        
+          <ul class="sidebartoc">        
           <li><a href="https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/#outline-and-lecture-notes"> Outline and Lecture Notes </a></li>
           <li><a href="https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/#outline-and-lecture-notes"> References and textbooks </a></li>
           <li><a href="https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/#outline-and-lecture-notes">  Past Exams </a></h4></li>
@@ -54,11 +54,6 @@
         </ul>
         </p>
 
-        {% if site.github.is_project_page %}
-        <p>This page is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-
       </header>
       <section>
 
@@ -66,6 +61,10 @@
 
       </section>
       <footer>
+         {% if site.github.is_project_page %}
+        <p>This page is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
         <script>
         $(function() {
           return $("h2, h3, h4, h5, h6").each(function(i, el) {

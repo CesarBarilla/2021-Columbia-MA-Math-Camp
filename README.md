@@ -1,7 +1,14 @@
 # Columbia MA Math Camp 2021
 Welcome ! This page hosts the course material of the August 2021 Math Camp for Columbia's Economics Masters program.
 
-{:toc}
+## Table of Contents
+
+* [Course Information](#course-information)
+* [Overview of the Course](#overview-of-the-course)
+* [Course Material](#course-material)
+    - [Course Outline and Lecture Notes](#course-outline-and-lecture-notes)
+	- [References and textbooks](#references-and-textbooks)
+	- [Past Exams and Problem Sets](#past-exams-and-problem-sets)
 
 ## Course Information
 
@@ -44,6 +51,4 @@ Proin id purus ut nisi pretium bibendum. Proin venenatis at nunc at cursus. Null
 
 ### References and textbooks
 
-### Past Exams
-
-### Problem Sets
+### Past Exams and Problem Sets

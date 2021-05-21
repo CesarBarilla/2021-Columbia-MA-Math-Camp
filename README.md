@@ -58,7 +58,7 @@ Some useful textbooks and other references include :
 * Knut Sydsaeter, Peter Hammond, and Andrés Carvajal. "Esssential mathematics for economic analysis.", 5th Edition, (2008). 
 * Knut Sydsaeter, Peter Hammond, Atle Seierstad and and Arne Strøm. "Further mathematics for economic analysis.", 2nd Edition, (2008). 
 * Rudin, Walter. "Principles of Mathematical Analysis (International Series in Pure & Applied Mathematics)." (1976).
-* Treil, Sergei. "Linear Algebra Done Wrong." (2014) (available for free online at http://www.math.brown.edu/⇠treil/papers/LADW/LADW-2014-09)
+* Treil, Sergei. "Linear Algebra Done Wrong." (2014) (available for free online at <http://www.math.brown.edu/⇠treil/papers/LADW/LADW-2014-09)>
 * Lang, Serge. "Linear Algebra. Undergraduate texts in mathematics." (2004).
 * Sundaram, Rangarajan K. "A First Course in Optimization Theory." (1996). 
 * Ok, Efe A. "Real Analysis with Economic Applications." (2007). 

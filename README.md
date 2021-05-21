@@ -4,9 +4,9 @@ Welcome ! This page hosts the course material of the August 2021 Math Camp for C
 ## Table of Contents
 
 * [Course Information](#course-information)
-* [Overview of the Course](#course-description)
+* [Course Description](#course-description)
 * [Course Material](#course-material)
-    - [Course Outline and Lecture Notes](#course-outline-and-lecture-notes)
+    - [Outline and Lecture Notes](#course-outline-and-lecture-notes)
 	- [References and textbooks](#references-and-textbooks)
 	- [Past Exams and Problem Sets](#past-exams-and-problem-sets)
 

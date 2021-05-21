@@ -7,19 +7,22 @@ Welcome ! This page hosts the course material of the August 2021 Math Camp for C
 * [Course Description](#course-description)
 * [Course Material](#course-material)
     - [Outline and Lecture Notes](#course-outline-and-lecture-notes)
-	- [References and textbooks](#references-and-textbooks)
+    - [Problem Sets](#problem-sets)
+	- [References and Textbooks](#references-and-textbooks)
 	- [Past Exams and Problem Sets](#past-exams-and-problem-sets)
 
 ## Course Information
 
 * Instructor : César Barilla
 * Email : <mailto:cesar.barilla@columbia.edu>
-* Graders : Akanksha Vardani and Utkarsh Kumar
+* Graders : Utkarsh Kumar and Akanksha Vardani
 
 * Dates : Monday Aug. 16 - Thur Sep. 2 
 * Time : 9:30am-12:00pm
 * Place : Room TBA and on Zoom (Link and recordings will be shared)
 * Office Hours : TBA
+
+* Problem Sets : TBA
 * Exam : TBA
 
 ## Course Description
@@ -47,6 +50,10 @@ Here is a tentative course outline :
 7. Probability
 
 Lectures notes will be posted soon.
+
+### Problem Sets
+
+Problem sets will be posted here.
 
 ### References and Textbooks
 

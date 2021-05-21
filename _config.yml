@@ -1,1 +1,5 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
+
+title: "Columbia MA Math Camp 2021"
+description: "Information and Course Material for the 2021 Math Camp of the MA in Economics at Columbia University"
+show_downloads: true

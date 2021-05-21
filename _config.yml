@@ -4,3 +4,5 @@ title: "Columbia MA Math Camp 2021"
 description: "Information and Course Material for the 2021 Math Camp of the MA in Economics at Columbia University"
 logo: "Columbia_University_shield.png"
 show_downloads: true
+
+markdown: kramdown

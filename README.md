@@ -1,6 +1,7 @@
 # Columbia MA Math Camp 2021
 This page hosts the course material of the August 2021 Math Camp for Columbia's Economics Masters program.
 
+[TOC]
 
 ## Course Information
 

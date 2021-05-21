@@ -1,13 +1,15 @@
 # Columbia MA Math Camp 2021
-This page hosts the course material of the August 2021 Math Camp for Columbia's Economics Masters program.
+Welcome ! This page hosts the course material of the August 2021 Math Camp for Columbia's Economics Masters program.
 
-[TOC]
+{:toc}
 
 ## Course Information
 
 * Instructor : César Barilla
 * Email : <mailto:cesar.barilla@columbia.edu>
+* Course website : <https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/>
 * Graders : Akanksha Vardani and Utkarsh Kumar
+
 * Dates : Monday Aug. 16 - Thur Sep. 2 
 * Time : 9:30am-12:00pm
 * Place : Room TBA and on Zoom (Link and recordings will be shared)

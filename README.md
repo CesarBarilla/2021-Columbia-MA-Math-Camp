@@ -22,7 +22,7 @@ Welcome ! This page hosts the course material of the August 2021 Math Camp for C
 * Place : Room TBA and on Zoom (Link and recordings will be shared)
 * Office Hours : TBA
 
-* Syllabus : [Download Here]{https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Syllabus.pdf}
+* Syllabus : [Download Here](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Syllabus.pdf)
 * Problem Sets : TBA
 * Exam : TBA
 

@@ -69,6 +69,7 @@ Some useful textbooks and other references include :
 * Lang, Serge. "Linear Algebra. Undergraduate texts in mathematics." (2004).
 * Sundaram, Rangarajan K. "A First Course in Optimization Theory." (1996). 
 * Ok, Efe A. "Real Analysis with Economic Applications." (2007). 
+* Of, Efe A. "Measure and Probability Theory with Economic Applications". Available online at <https://sites.google.com/a/nyu.edu/efeok/books>
 * Stokey, Nancy L., Robert E. Lucas Jr, and Edward C, Prescott. "Recursive Methods in Economic Dynamics." (1989).
 * Wälde, Klaus, "Applied Intertemporal Optimization" (2020), available online for free at <https://www.macro.economics.uni-mainz.de/klaus-waelde/waelde-klaus-applied-intertemporal-optimization/>
 

@@ -19,7 +19,7 @@ Welcome ! This page hosts the course material of the August 2021 Math Camp for C
 
 * Dates : Monday Aug. 16 - Thur Sep. 2 
 * Time : 9:30am-12:00pm
-* Place : Room TBA and on Zoom (Link and recordings will be shared)
+* Place : Schermerhorn 614 and on Zoom (link and recordings will be shared by email)
 * Office Hours : TBA
 
 * Syllabus : [Download Here](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Syllabus.pdf)
@@ -58,7 +58,9 @@ Problem sets will be posted here.
 
 ### References and Textbooks
 
-Two very useful short introductions to mathematical proofs.
+Two very useful short introductions to mathematical proofs : 
+* [Proving Things, by Stéphane Dupraz](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Syllabus.pdf/Lecture_Notes/provingthings_Stephane.pdf)
+* [How to do proofs in Mathematics, by Xingye Wu](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Syllabus.pdf/Lecture_Notes/provingthings_Xingye.pdf)
 
 Lecture notes from last year's math camp are available [here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/2020%20Lecture%20Notes).
 

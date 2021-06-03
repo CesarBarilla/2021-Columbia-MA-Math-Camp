@@ -59,8 +59,8 @@ Problem sets will be posted here.
 ### References and Textbooks
 
 Two very useful short introductions to mathematical proofs : 
-* [Proving Things, by Stéphane Dupraz](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Syllabus.pdf/Lecture_Notes/provingthings_Stephane.pdf)
-* [How to do proofs in Mathematics, by Xingye Wu](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Syllabus.pdf/Lecture_Notes/provingthings_Xingye.pdf)
+* [Proving Things, by Stéphane Dupraz](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/provingthings_Stephane.pdf)
+* [How to do proofs in Mathematics, by Xingye Wu](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/provingthings_Xingye.pdf)
 
 Lecture notes from last year's math camp are available [here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/2020%20Lecture%20Notes).
 

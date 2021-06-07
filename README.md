@@ -64,17 +64,26 @@ Two very useful short introductions to mathematical proofs :
 
 Lecture notes from last year's math camp are available [here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/2020%20Lecture%20Notes).
 
-Some useful textbooks and other references include :
-* Knut Sydsaeter, Peter Hammond, and Andrés Carvajal. "Esssential mathematics for economic analysis.", 5th Edition, (2008). 
-* Knut Sydsaeter, Peter Hammond, Atle Seierstad and and Arne Strøm. "Further mathematics for economic analysis.", 2nd Edition, (2008). 
-* Rudin, Walter. "Principles of Mathematical Analysis (International Series in Pure & Applied Mathematics)." (1976).
-* Treil, Sergei. "Linear Algebra Done Wrong." (2014) (available for free online at <http://www.math.brown.edu/treil/papers/LADW/LADW-2014-09)>
-* Lang, Serge. "Linear Algebra. Undergraduate texts in mathematics." (2004).
-* Sundaram, Rangarajan K. "A First Course in Optimization Theory." (1996). 
-* Ok, Efe A. "Real Analysis with Economic Applications." (2007). 
-* Of, Efe A. "Measure and Probability Theory with Economic Applications". Available online at <https://sites.google.com/a/nyu.edu/efeok/books>
-* Stokey, Nancy L., Robert E. Lucas Jr, and Edward C, Prescott. "Recursive Methods in Economic Dynamics." (1989).
-* Wälde, Klaus, "Applied Intertemporal Optimization" (2020), available online for free at <https://www.macro.economics.uni-mainz.de/klaus-waelde/waelde-klaus-applied-intertemporal-optimization/>
+Below is a list of useful references and textbooks sorted by theme. Within each theme, references are listed in (approximately) increasing complexity. References marked with a \textbf{(!)} are more advanced and are included either for future references or very motivated students. 
+* General references
+	- Knut Sydsaeter, Peter Hammond, Arne Strom and Andr\'es Carvajal. "Esssential mathematics for economic analysis.", 5th Edition, (2016), Pearson. 
+	-  Knut Sydsaeter, Peter Hammond, Atle Seierstad and and Arne Strom. "Further mathematics for economic analysis.", 2nd Edition, (2008), Pearson.
+* Analysis
+	- Walter Rudin. "Principles of Mathematical Analysis" (1976), International Series in Pure \& Applied Mathematics, McGraw-Hill.
+	- Ok, Efe A. "Real Analysis with Economic Applications" (2007).
+	- **(!)** Walter Rudin, Real and Complex Analysis, Third Edition (1987), McGraw-Hill. 
+* Linear Algebra	
+	- Treil, Sergei. "Linear Algebra Done Wrong." (2014) (available online at \url{http://www.math.brown.edu/treil/papers/LADW/LADW-2014-09)}
+	- Lang, Serge. "Linear Algebra", Third Edition (2004), Springer Undergraduate Texts in Mathematics.
+* Optimization 
+	- Rangarajan K. Sundaram, "A First Course in Optimization Theory" (1996), Cambridge University Press. 
+* Probability and Measure Theory
+	- Of, Efe A. "Measure and Probability Theory with Economic Applications". Available online at \url{https://sites.google.com/a/nyu.edu/efeok/books}
+	- Rick Durrett, "Probability Theory and Examples", Version 5 (2019), available online at \url{https://services.math.duke.edu/~rtd/PTE/pte.html}
+	- Patrick Billingsley, "Probability and Measure", Third Edition (1994), Wiley Series in Probability and Mathematical Statistics. 
+* Dynamic Programming	
+	- Klaus Walde, "Applied Intertemporal Optimization" (2020), available online for free at \href{https://www.macro.economics.uni-mainz.de/klaus-waelde/waelde-klaus-applied-intertemporal-optimization/}{this link on the author's website}.
+	- Nancy L. Stokey, Robert E. Lucas Jr, and Edward C. Prescott. "Recursive Methods in Economic Dynamics" (1989), Harvard University Press.
 
 ### Past Exams and Problem Sets
 

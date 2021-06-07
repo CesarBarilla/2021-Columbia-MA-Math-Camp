@@ -73,16 +73,16 @@ Below is a list of useful references and textbooks sorted by theme. Within each 
 	- Ok, Efe A. "Real Analysis with Economic Applications" (2007).
 	- **(!)** Walter Rudin, Real and Complex Analysis, Third Edition (1987), McGraw-Hill. 
 * Linear Algebra	
-	- Treil, Sergei. "Linear Algebra Done Wrong." (2014) (available online at \url{http://www.math.brown.edu/treil/papers/LADW/LADW-2014-09)}
+	- Treil, Sergei. "Linear Algebra Done Wrong." (2014) (available online at <http://www.math.brown.edu/treil/papers/LADW/LADW-2014-09)>
 	- Lang, Serge. "Linear Algebra", Third Edition (2004), Springer Undergraduate Texts in Mathematics.
 * Optimization 
 	- Rangarajan K. Sundaram, "A First Course in Optimization Theory" (1996), Cambridge University Press. 
 * Probability and Measure Theory
-	- Of, Efe A. "Measure and Probability Theory with Economic Applications". Available online at \url{https://sites.google.com/a/nyu.edu/efeok/books}
-	- Rick Durrett, "Probability Theory and Examples", Version 5 (2019), available online at \url{https://services.math.duke.edu/~rtd/PTE/pte.html}
+	- Of, Efe A. "Measure and Probability Theory with Economic Applications". Available online at <https://sites.google.com/a/nyu.edu/efeok/books>
+	- Rick Durrett, "Probability Theory and Examples", Version 5 (2019), available online at <https://services.math.duke.edu/~rtd/PTE/pte.html>
 	- Patrick Billingsley, "Probability and Measure", Third Edition (1994), Wiley Series in Probability and Mathematical Statistics. 
 * Dynamic Programming	
-	- Klaus Walde, "Applied Intertemporal Optimization" (2020), available online for free at \href{https://www.macro.economics.uni-mainz.de/klaus-waelde/waelde-klaus-applied-intertemporal-optimization/}{this link on the author's website}.
+	- Klaus Walde, "Applied Intertemporal Optimization" (2020), available online for free at <https://www.macro.economics.uni-mainz.de/klaus-waelde/waelde-klaus-applied-intertemporal-optimization>
 	- Nancy L. Stokey, Robert E. Lucas Jr, and Edward C. Prescott. "Recursive Methods in Economic Dynamics" (1989), Harvard University Press.
 
 ### Past Exams and Problem Sets

@@ -92,6 +92,7 @@ The problem sets will have to be typed and students are encouraged to use LaTeX.
 * If you are strongly averse to writing explicit commands, [LyX](https://www.lyx.org/) is an alternative LaTeX-based software that wraps it in a more visual "Word-like" environment.
 * Another good guide to LaTeX : [The Not So Short Guide to LaTeX](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiI69WrmojxAhUPZd8KHcL6D4kQFjAAegQIAxAD&url=https%3A%2F%2Ftobi.oetiker.ch%2Flshort%2Flshort.pdf&usg=AOvVaw2H-66YoZTXtmBuNDfl3mcl)
 * A useful guide for all the math command that you might need in the AMS package : [Short Math Guide for LaTeX](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwis9OzumojxAhWOT98KHQE6BFgQFjAAegQIBBAD&url=http%3A%2F%2Ftug.ctan.org%2Finfo%2Fshort-math-guide%2Fshort-math-guide.pdf&usg=AOvVaw2xgiC2cYnygUWte5jHJYyo)
+* There are a lot of good LaTeX tutorials out there, don't hesitate to look for them and see if you find one you like. Most importantly, after you grasp the general idea of how LaTeX works, you'll learn the most by just using it and figuring out how to do what you need to do.
 
 ### Past Exams and Problem Sets
 

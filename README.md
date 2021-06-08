@@ -64,7 +64,7 @@ Two very useful short introductions to mathematical proofs :
 
 Lecture notes from last year's math camp are available [here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/2020%20Lecture%20Notes).
 
-Below is a list of useful references and textbooks sorted by theme. Within each theme, references are listed in (approximately) increasing complexity. References marked with a \textbf{(!)} are more advanced and are included either for future references or very motivated students. 
+Below is a list of useful references and textbooks sorted by theme. Within each theme, references are listed in (approximately) increasing complexity. References marked with a **(!)** are more advanced and are included either for future references or very motivated students. 
 * General references
 	- Knut Sydsaeter, Peter Hammond, Arne Strom and Andr\'es Carvajal. "Esssential mathematics for economic analysis.", 5th Edition, (2016), Pearson. 
 	-  Knut Sydsaeter, Peter Hammond, Atle Seierstad and and Arne Strom. "Further mathematics for economic analysis.", 2nd Edition, (2008), Pearson.

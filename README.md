@@ -85,6 +85,14 @@ Below is a list of useful references and textbooks sorted by theme. Within each 
 	- Klaus Walde, "Applied Intertemporal Optimization" (2020), available online for free at <https://www.macro.economics.uni-mainz.de/klaus-waelde/waelde-klaus-applied-intertemporal-optimization>
 	- Nancy L. Stokey, Robert E. Lucas Jr, and Edward C. Prescott. "Recursive Methods in Economic Dynamics" (1989), Harvard University Press.
 
+The problem sets will have to be typed and students are encouraged to use LaTeX. LaTeX is a powerful tool for seamless and systematic typesetting that produces clean and readable documents. It is arguably the best practical options to typeset mathematical notations and it is the standard tool in the academic world in Economics. For those that are not familiar with LaTeX, here are a few references to get started :
+* The website [Overleaf](www.overleaf.com) is a great practical way to get started with LaTeX. You can create a free account and work on LaTeX documents without having to install anything on your computer, it is all browser based. Furthermore, [Overleaf](www.overleaf.com) has some useful templates and a [very good guide to getting started with LaTeX](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) (which is useful even you choose to use another editor) and [many tutorials](https://www.overleaf.com/learn).
+* If you prefer to install a local LaTeX distribution and editor on your laptop, there are several good options that come "pre-packaged" with everything you need. Notable among those are [MikTeX](https://miktex.org/) for Windows and [TeXshop](https://pages.uoregon.edu/koch/texshop/) for MacOS.
+* For the more adventurous, you can download separately a [LaTeX distribution](https://www.latex-project.org/) and then pair it with any editor you like (VSCode, Sublime Text, Atom,...)
+* If you are strongly averse to writing explicit commands, [LyX](https://www.lyx.org/) is an alternative LaTeX-based software that wraps it in a more visual "Word-like" environment.
+* Another good guide to LaTeX : [The Not So Short Guide to LaTeX](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiI69WrmojxAhUPZd8KHcL6D4kQFjAAegQIAxAD&url=https%3A%2F%2Ftobi.oetiker.ch%2Flshort%2Flshort.pdf&usg=AOvVaw2H-66YoZTXtmBuNDfl3mcl)
+* A useful guide for all the math command that you might need in the AMS package : [Short Math Guide for LaTeX](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwis9OzumojxAhWOT98KHQE6BFgQFjAAegQIBBAD&url=http%3A%2F%2Ftug.ctan.org%2Finfo%2Fshort-math-guide%2Fshort-math-guide.pdf&usg=AOvVaw2xgiC2cYnygUWte5jHJYyo)
+
 ### Past Exams and Problem Sets
 
 You can find [Past Exams Here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/Past%20Exams) and [Past Problem Sets here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/Past%20Problem%20Sets).

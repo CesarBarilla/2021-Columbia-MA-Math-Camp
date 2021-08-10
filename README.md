@@ -40,23 +40,29 @@ Problem sets will be assigned weekly. They are important practice and will be gr
 
 ### Course Outline and Lecture Notes
 
-Here is a tentative course outline :
+Here is a tentative course outline (each main section is a link to the corresponding lecture notes) :
 
-0. [Preliminaries : Mathematical Logic, Sets, Functions, Numbers](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/0.%20Logic,%20Sets,%20Functions,%20Numbers_2021.pdf)
+1. [Preliminaries : Mathematical Logic, Sets, Functions, Numbers](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/0.%20Logic,%20Sets,%20Functions,%20Numbers%20_2021.pdf)
 	1. Introduction to Mathematical Logic
 	2. Sets
 	3. Relations
 	4. Functions
 	5. Numbers
 	6. Countability and Cardinality
-1. Real Analysis
-2. Linear Algebra
-3. Multivariate Calculus
-4. Convexity
-5. Optimization
-6. Probability
+2. [Real Analysis](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/1.%20Real%20Analysis_2021.pdf)
+	1. Metric Spaces
+	2. Basic Topology
+	3. Sequences and Convergence
+	4. Compactness
+	5. Cauchy Sequences and Completeness
+	6. Continuity of Functions
+3. Linear Algebra
+4. Multivariate Calculus
+5. Convexity
+6. Optimization
+7. Probability
 
-Lectures notes will be posted soon.
+Lectures notes will be posted soon and are susceptible to being continuously updated (the date of last update is always mentioned at the top of the pdf).
 
 ### Problem Sets
 

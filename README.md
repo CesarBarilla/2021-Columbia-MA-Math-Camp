@@ -42,7 +42,7 @@ Problem sets will be assigned weekly. They are important practice and will be gr
 
 Here is a tentative course outline :
 
-0. [Preliminaries : Mathematical Logic, Sets, Functions, Numbers](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/0.%20Logic,%20Sets,%20Functions,%20Numbers%20_2021.pdf)
+0. [Preliminaries : Mathematical Logic, Sets, Functions, Numbers](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/0.%20Logic,%20Sets,%20Functions,%20Numbers_2021.pdf)
 	1. Introduction to Mathematical Logic
 	2. Sets
 	3. Relations

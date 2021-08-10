@@ -42,13 +42,19 @@ Problem sets will be assigned weekly. They are important practice and will be gr
 
 Here is a tentative course outline :
 
-1. Introduction to Set Theory and Mathematical Logic
-2. Real Analysis
-3. Linear Algebra
-4. Multivariate Calculus
-5. Convexity
-6. Optimization
-7. Probability
+0. [Preliminaries : Mathematical Logic, Sets, Functions, Numbers](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/0.%20Logic,%20Sets,%20Functions,%20Numbers%20(2021).pdf)
+	1. Introduction to Mathematical Logic
+	2. Sets
+	3. Relations
+	4. Functions
+	5. Numbers
+	6. Countability and Cardinality
+1. Real Analysis
+2. Linear Algebra
+3. Multivariate Calculus
+4. Convexity
+5. Optimization
+6. Probability
 
 Lectures notes will be posted soon.
 

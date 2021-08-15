@@ -19,7 +19,7 @@ Welcome ! This page hosts the course material of the August 2021 Math Camp for C
 
 * Dates : Monday Aug. 16 - Thur Sep. 2 
 * Time : 9:30am-12:00pm
-* Place : Schermerhorn 614 and on Zoom (link and recordings will be shared by email)
+* Place : Schermerhorn 614 ([See a Map of Campus Here](https://cufo.columbia.edu/sites/default/files/content/morningsidemap_2015aug-7.pdf)) and on Zoom (link and recordings will be shared by email)
 * Office Hours : TBA
 
 * Syllabus : [Download Here](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Syllabus.pdf)
@@ -56,13 +56,33 @@ Here is a tentative course outline (each main section is a link to the correspon
 	4. Compactness
 	5. Cauchy Sequences and Completeness
 	6. Continuity of Functions
-3. Linear Algebra
-4. Multivariate Calculus
-5. Convexity
-6. Optimization
-7. Probability
+3. [Linear Algebra](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/2.%20Linear%20Algebra_2021.pdf)
+	1. Vectors and Vector Spaces
+	2. Matrices
+	3. Systems of Linear Equations
+	4. Eigenvalues, Eigenvectors, and Diagonalization
+	5. Quadratic Forms
+4. [Multivariate Calculus](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/3.%20MVC_2021.pdf)
+	1. Derivatives
+	2. Mean Value Theorem
+	3. Higher order derivatives and Taylor Expansions
+	4. Log-Linearization
+	5. Implicit and Inverse Function Theorems
+	6. (Riemanian) Integration
+5. [Convexity](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/4.%20Convexity_2021.pdf)
+	1. Convex Sets, Separation Theorem, Fixed Point Theorems
+	2. Convex and Concave Functions
+	3. Quasi-convex and Quasi-concave functions
+6. [Optimization](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/5.%20Optimization_2021.pdf)
+	1. General Setup
+	2. Result on the set of Maximizers
+	3. Optimization on $R^n$
+	4. Kuhn-Tucker Theorem
+	5. A brief introduction to dynamic programming
+7. Probability (TBD, if time permits)
+8. [Correspondences](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Lecture%20Notes/7.%20Correspondences_2021.pdf) (if time permits)
 
-Lectures notes will be posted soon and are susceptible to being continuously updated (the date of last update is always mentioned at the top of the pdf).
+Lectures notes are susceptible to being continuously updated (be sure to check the date of last update, which is always mentioned at the top of the pdf).
 
 ### Problem Sets
 

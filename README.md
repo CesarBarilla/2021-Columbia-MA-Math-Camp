@@ -86,7 +86,20 @@ Lectures notes are susceptible to being continuously updated (be sure to check t
 
 ### Problem Sets
 
-Problem sets will be posted here.
+Problem sets will be posted here. Below is a tentative schedule.
+
+1. Problem Set 1 (Logic, Sets, Analysis)
+	* Date Posted : Monday August 16th
+	* Date Due : Monday August 23rd
+2. Problem Set 2 (Real Analysis, Linear Algebra)
+	* Date Posted : Friday August 20th
+	* Date Due : Friday August 26th
+3. Problem Set 3 (Multivariate Calculus, Convexity)
+	* Date Posted : Monday August 23th
+	* Date Due : Monday August 30th
+4. Problem Set 4 (Convexity, Optimization, Probabilities)
+	* Date Posted : Friday August 27th
+	* Date Due : Friday September 3rd
 
 ### References and Textbooks
 

@@ -1,0 +1,342 @@
+\documentclass[11pt,letterpaper]{scrartcl}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CHARACTER ENCODING PACKAGES %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+\DeclareUnicodeCharacter{00A0}{ } % To avoid no-break space problems in utf8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PAGE LAYOUT SETUP PACKAGES %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{layout}
+\usepackage{setspace}
+%\usepackage[top=2cm, bottom=2cm, left=1.5cm, right=1.5cm]{geometry} % filled pages
+\usepackage[top=3cm, bottom=3cm, left=2cm, right=2cm]{geometry}
+%\usepackage{fancyhdr}
+%\usepackage{ragged2e}
+
+\usepackage[bottom]{footmisc} % Footnotes always at the bottom, even with floats
+
+% \fancyhf{}
+% \fancyhead[LE,RO]{\chaptertitle}
+% \fancyhead[RE,LO]{}
+% \fancyfoot[CE,CO]{}
+% \fancyfoot[LE,RO]{\thepage}
+
+% \newpagestyle{newstyle}{
+%   \setheadrule{0pt}% Header rule
+%   \sethead[\textit{\chaptertitle}]% even left
+%     []% even centre
+%     []% even right
+%     {}% odd left
+%     {}% odd centre
+%     {\textit{\chaptertitle}}% odd right
+%   \setfoot[]% even left
+%     [\thepage]% even centre
+%     []% even right
+%     {}% odd left
+%     {\thepage}% odd centre
+%     {}% odd right
+% }
+
+\pagestyle{plain}
+
+%\setlength{\parindent}{4em} 	% Paragraph indentation space setting
+%\setlength{\parskip}{1em}		% Spacing between paragraphs
+
+% Footnotes without markers :
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+%%%%%%%%%%%%%%%%%%%%
+% TYPESET PACKAGES %
+%%%%%%%%%%%%%%%%%%%%
+
+% \usepackage[scaled,osf]{garamondx} %osf for text, lining for math
+% \usepackage[scaled=.95]{cabin} %ss
+% \usepackage[varqu,scaled=.95]{inconsolata} %tt
+% \usepackage[garamondx,bigdelims,vvarbb]{newtxmath}
+% \usepackage[cal=boondox]{mathalfa}
+% \usepackage{textcomp}
+
+% \let\circledS\undefined
+
+% \renewcommand{\rmdefault}{phv} (Helvetica or altenative default font)
+
+%\usepackage{bookman}
+%\usepackage{charter}
+%\usepackage{newcent}
+%\usepackage{lmodern}
+%\usepackage{mathpazo}
+
+ \setkomafont{disposition}{\normalfont\bfseries} % Usual fonts for titles in Koma document classes
+
+ %\setkomafont{sectioning}{\normalfont\bfseries}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SPECIAL CHARACTERS PACKAGES %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usepackage{mathptmx}
+%\usepackage{soul}
+%\usepackage{ulem}
+\usepackage{eurosym}
+%\usepackage{marvosym}
+%\usepackage{url}
+%\usepackage{verbatim}
+%\usepackage{moreverb}
+%\usepackage{color}
+%\usepackage{colortbl}
+%\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+
+\usepackage{lipsum}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{dsfont}
+\usepackage{stmaryrd}
+\usepackage{mathtools} % Allows for use of dcases instead of cases
+% \usepackage{apxproof} % For sending proofs to appendix
+
+%\numberwithin{equation}{section}
+
+% Maths objects
+% Maths objects
+\newtheorem{definition}{Definition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{remark}{Remark}
+\newtheorem{assumption}{Assumption}
+\newtheorem{lemma}{Lemma}
+%\newtheoremrep{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+%\newtheoremrep{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+%\newtheoremrep{proposition}{Proposition}
+\newenvironment{sproof}{\renewcommand{\proofname}{Sketch of Proof}\proof}{\endproof}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\bigzero}{\makebox(0,0){\text{\huge0}}}
+\newcommand{\prob}{\mathbb{P}}
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\Esp}{\mathbb{E}}
+\newcommand{\Var}{\mathbb{V}}
+\newcommand{\Cov}{\text{Cov}}
+\newcommand{\naturals}{\mathbb{N}}
+\newcommand{\rationals}{\mathbb{Q}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\Ftribe}{\mathcal{F}}
+\newcommand{\Normal}{\mathcal{N}}
+\newcommand{\Uniform}{\mathcal{U}}
+\newcommand\bigp[1]{\bigl( #1 \bigr)}
+\newcommand\eqnotebc[1]{\quad \text{(} \because \text{#1)}}
+\newcommand{\ubar}{\overline{u}}
+\newcommand{\cbar}{\overline{c}}
+\newcommand{\pbar}{\overline{p}}
+\newcommand{\Mcal}{\mathcal{M}}
+\newcommand{\Pcal}{\mathcal{P}}
+\newcommand{\indic}[1]{\mathds{1}_{ \{ #1 \} }}
+\newcommand{\set}[1]{\{ #1 \}}
+
+
+%%%%%%%%%%%%%%%%%%%%
+% OBJECTS PACKAGES %
+%%%%%%%%%%%%%%%%%%%%
+
+%\usepackage{listings}
+
+%\usepackage{makeidx}
+%\usepackage{supertabular} % Tableaux (longs)
+%\usepackage{hyperref} % Liens hypertextes
+\usepackage{enumitem}
+
+\usepackage{graphicx} % Images
+\usepackage{wrapfig} % Figures
+\usepackage[font=small, labelfont=sc]{caption} % Mise en forme des légendes
+%\usepackage{placeins} % Allow FloatBarriers
+\usepackage{subfigure}
+\usepackage{pdfpages}
+
+\usepackage{natbib}
+\bibliographystyle{unsrtnat}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% TITLE, AUTHORS,... %
+%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Problem Set 1 \\ MA Math Camp 2021 }
+\author{ Due Date : August 23rd, 2021 }
+\date{  }
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\newcommand\makesimpletitle{% 
+\noindent 
+\textbf{\large \thetitle} \\
+\-\ \hspace{.2cm} { \large \theauthor } \\ 
+\-\ \hspace{.2cm} { \normalsize \thedate }
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%												%
+%		DOCUMENT 						%
+%						 						%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+
+%%% TITLEPAGE %%%
+
+%%% MAIN MATTER %%%
+
+\makesimpletitle
+
+Answers should be typed and submitted in PDF format on Gradescope (see the course website for details). Be sure to answer every question thoroughly, and try to write complete and rigorous yet concise proofs. You can contact me if you have \emph{specific} questions about the problem set, or if you think you have spotted a typo or mistake.
+
+\vspace{.5cm}
+
+\begin{enumerate}
+	
+	\item Let $P,Q$ two statements.
+	\begin{enumerate}[label=\alph*.]
+		\item Show that the statements $\neg (P \vee Q)$ and $\neg P \wedge \neg Q$ are logically equivalent, using a truth table.
+		\item Show the contrapositive principle ($P \Rightarrow Q \Leftrightarrow \neg Q \Rightarrow \neg P$) using a truth table.
+	\end{enumerate}
+
+
+	\item 
+	Write the negation of each of the following statement. Interpret each statement and state (if possible) which is true or false.
+		\begin{enumerate}[label=\alph*.]
+			\item $\forall x \in \reals, x^2 \geq 0$
+			\item $\forall x \in \reals, x^2 > 0$
+			\item $\exists M \in \reals, \forall x \in \reals, x \leq M$
+			\item $\forall x \in \reals, \exists M \in \reals, x \leq M$
+			\item $\forall x \in \reals, \forall y \in \reals, \exists \theta \in \reals, |x-y|^2 \leq \theta|x-y|$
+			\item $\exists \theta \in \reals, \forall x \in \reals, \forall y \in \reals, |x-y|^2 \leq \theta|x-y|$
+			\item $\forall (x,y) \in \reals^2, x+y=0 \Rightarrow (x=0 \text{ and } y=0)$
+			\item $\forall (x,y,z) \in \reals^3, x^2+y^2+z^2=0 \Rightarrow (x=0 \text{ and } y=0 \text{ and } z=0)$
+		\end{enumerate}
+
+
+	\item Write explicitly :
+	\begin{enumerate}[label=\alph*.]
+		\item $\Pcal(\Pcal(\Pcal(\emptyset)))$
+		\item $\Pcal(\Pcal(\{a,b\}))$
+	\end{enumerate}
+
+	\item Let $E$ and $F$ two sets. 
+	\begin{enumerate}[label=\alph*.]
+		\item Show that $E \subseteq F \Leftrightarrow \Pcal(E) \subseteq \Pcal(F)$.
+		\item Compare $\Pcal(E \cup F)$ and $\Pcal(E) \cup \Pcal(F)$ (is one included in the other ?).
+	\end{enumerate}
+
+	\item Let $E$ a non-empty set and let $A,B,C$ subsets of $E$. Show that :
+		\begin{enumerate}[label=\alph*.]
+			\item $A = B \Leftrightarrow A \cap B = A \cup B$
+			\item $A \cap B ^c = A \cap C^c \Leftrightarrow A \cap B = A \cap C$
+			\item $\begin{cases}
+			A \cap B \subseteq A \cap C 
+			\\
+			A \cup B \subseteq A \cup C
+			\end{cases} 
+			\Rightarrow
+			B \subseteq C$
+			\item Define the symmetrical difference, denoted $\Delta$, of $A$ and $B$ as :
+			\begin{align*}
+			A \Delta B :&= \{ (x \in A \text{ and } x \notin B) \text{ or }  (x \in B \text{ and } x \notin A) \}
+			\\ & = (A \cup B) \setminus (A \cap B)
+			\\ & = (A \setminus B) \cup (B \setminus A)
+			\end{align*}
+			The three definitions above are equivalent. Show that :
+			\begin{align*}
+			A^c \Delta B^c = A \Delta B
+			\end{align*}
+		\end{enumerate}
+
+	\item Let $R$ be a complete, transitive relation over a set $X$. Define the relation $\sim$ as follows : $a \sim b$ iff $aRb$ and $bRa$. For any $x \in X$, define the set $I(x)$ as :
+		\begin{align*}
+			I(x) := \{ y \in X | y \sim x \}
+		\end{align*}
+	Show that for any $x,y \in X$, either $I(x)=I(y)$ or $I(x) \cap I(y)= \emptyset$
+		
+
+	\item Let $I$ an interval of $\reals$ and $f:I \rightarrow \reals$ a function defined over $I$ taking values in $\reals$. Write mathematical statements (using quantifiers) to express the following statements :
+	\begin{enumerate}[label=\alph*.]
+		\item $f$ takes the value zero
+		\item $f$ is the zero function (takes the value zero everywhere)
+		\item $f$ is not a constant function
+		\item $f$ never takes the same value twice
+	\end{enumerate}
+
+	\item Let $X,Y$ two sets and $f \in Y^X$. 
+	\begin{enumerate}[label=\alph*.]
+		\item Show that for any $A,B \in \Pcal(E)$, $f(A \cap B) \subseteq f(A) \cap f(B)$
+		\item Show that $f$ is injective if and only if for any $A,B \in \Pcal(E)$ : $f(A \cap B) = f(A) \cap f(B)$
+		\item Find an example of a function $f$ such that there exists $A,B \in \Pcal(E)$ for which $f(A \cap B) \subsetneq f(A) \cap f(B)$
+	\end{enumerate}
+
+	\item Let $X,Y$ two sets and $f \in Y^X$.
+	\begin{enumerate}[label=\alph*.]
+		\item Show that for all $A \in \Pcal(X)$, $A \subseteq f^{-1}(f(A))$ and this holds with equality for all $A$ if and only if $f$ is injective.
+		\item Show that for all $B \in \Pcal(Y)$, $f(f^{-1}(Y)) \subseteq Y$ and this holds with equality for all $B$ if and only if $f$ is surjective.
+	\end{enumerate}
+	
+	
+	\item Show that ther does not exist any surjective function from $E$ into $\Pcal(E)$ (this is a famous result due to Cantor). Hint : consider $\phi : E \rightarrow \Pcal(E)$ and assume by contradiction that it is surjective, then consider the set $A:=\{x \in E, x \notin \phi(x) \}$.
+
+	\item Show the two following results by induction :
+	\begin{enumerate}[label=\alph*.]
+		\item For any $n \in \naturals$
+			\begin{align*}
+			\sum_{k=0}^n k = \frac{n(n+1)}{2}
+			\end{align*}
+		\item For any $n \in \naturals$
+			\begin{align*}
+			\sum_{k=0}^n k^2 = \frac{n(n+1)(2n+1)}{6}
+			\end{align*}
+	\end{enumerate}	
+	
+	\item Verify that the $d_\infty$ norm on $\reals^k$, defined as $d_\infty(x,y):=\max_{1\leq i \leq k} |x_i-y_i|$ is indeed a distance. In $\reals^2$, draw the set of points $x$ such that $d(x,0)=1$.
+
+	\item Consider $(E,d)$ a metric space. Prove that for an arbitrary set $S \subseteq E$, the interior of $S$ is open.
+
+	\item Consider the metric space $(\reals,d_2)$ and two convergent sequences $x_n \rightarrow x$, $y_n \rightarrow y$. Prove the following results :
+	\begin{enumerate}[label=\alph*.]
+		\item If for all $n \in \naturals$, $x_n \leq y_n$ then $x \leq y$
+		\item $x_n + y_n \rightarrow x + y$
+		\item If $x \neq 0$, $\frac{1}{x_n} \rightarrow \frac{1}{x}$
+	\end{enumerate}
+
+	\item Prove that the two definitions we gave for closed sets are equivalent. In other words, let $(E,d)$ a metric space and $S \subseteq E$, prove that the two following statements are equivalent :
+	\begin{itemize}
+		\item $S^c$ is an open set
+		\item $S$ contains all of its limit points
+	\end{itemize}
+
+	\item Prove that if a sequence $(x_n)$ converges in $(\reals,d_2)$, then $(|x_n|)$. Is the converse true ? If not, find a counterexample.
+
+	\item Show that the image of an open set by a continuous function is not necessarily an open set. Show that the image of a closed set by a continuous function is not necessarily a closed set.  
+	
+
+\end{enumerate}
+\end{document}

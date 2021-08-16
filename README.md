@@ -88,7 +88,7 @@ Lectures notes are susceptible to being continuously updated (be sure to check t
 
 Problem sets will be posted here. Below is a tentative schedule.
 
-1. Problem Set 1 (Logic, Sets, Analysis)
+1. [Problem Set 1 (Logic, Sets, Analysis)](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Problem%20Sets/PS1_2021.pdf)
 	* Date Posted : Monday August 16th
 	* Date Due : Monday August 23rd
 2. Problem Set 2 (Real Analysis, Linear Algebra)

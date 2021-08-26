@@ -93,6 +93,7 @@ Problem sets will be posted here. Below is a tentative schedule.
 	* Date Due : Monday August 23rd
 	* [Download PDF](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Problem%20Sets/PS1_2021.pdf) 
 	* [Download TeX file](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Problem%20Sets/PS1_2021.tex)
+	* [Solutions](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Problem%20Sets/PS1_Solutions_2021.pdf)
 2. Problem Set 2 (Real Analysis, Linear Algebra)
 	* Date Posted : Monday August 23rd
 	* Date Due : Monday August 30th

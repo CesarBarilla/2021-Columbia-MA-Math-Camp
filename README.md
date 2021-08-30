@@ -102,9 +102,8 @@ Problem sets will be posted here. Below is a tentative schedule.
 3. Problem Set 3 (Multivariate Calculus, Convexity, Optimization)
 	* Date Posted : Monday August 30th
 	* Date Due : Monday September 6th
-4. Problem Set 4 (Optimization, Probabilities)
-	* Date Posted : Friday September 3rd
-	* Date Due : TBD
+	* [Download PDF](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Problem%20Sets/PS3_2021.pdf) 
+	* [Download TeX file](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Problem%20Sets/PS3_2021.tex)
 
 ### References and Textbooks
 

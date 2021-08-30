@@ -1,0 +1,312 @@
+\documentclass[11pt,letterpaper]{scrartcl}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CHARACTER ENCODING PACKAGES %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+\DeclareUnicodeCharacter{00A0}{ } % To avoid no-break space problems in utf8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PAGE LAYOUT SETUP PACKAGES %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{layout}
+\usepackage{setspace}
+%\usepackage[top=2cm, bottom=2cm, left=1.5cm, right=1.5cm]{geometry} % filled pages
+\usepackage[top=3cm, bottom=3cm, left=2cm, right=2cm]{geometry}
+%\usepackage{fancyhdr}
+%\usepackage{ragged2e}
+
+\usepackage[bottom]{footmisc} % Footnotes always at the bottom, even with floats
+
+% \fancyhf{}
+% \fancyhead[LE,RO]{\chaptertitle}
+% \fancyhead[RE,LO]{}
+% \fancyfoot[CE,CO]{}
+% \fancyfoot[LE,RO]{\thepage}
+
+% \newpagestyle{newstyle}{
+%   \setheadrule{0pt}% Header rule
+%   \sethead[\textit{\chaptertitle}]% even left
+%     []% even centre
+%     []% even right
+%     {}% odd left
+%     {}% odd centre
+%     {\textit{\chaptertitle}}% odd right
+%   \setfoot[]% even left
+%     [\thepage]% even centre
+%     []% even right
+%     {}% odd left
+%     {\thepage}% odd centre
+%     {}% odd right
+% }
+
+\pagestyle{plain}
+
+%\setlength{\parindent}{4em} 	% Paragraph indentation space setting
+%\setlength{\parskip}{1em}		% Spacing between paragraphs
+
+% Footnotes without markers :
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+%%%%%%%%%%%%%%%%%%%%
+% TYPESET PACKAGES %
+%%%%%%%%%%%%%%%%%%%%
+
+% \usepackage[scaled,osf]{garamondx} %osf for text, lining for math
+% \usepackage[scaled=.95]{cabin} %ss
+% \usepackage[varqu,scaled=.95]{inconsolata} %tt
+% \usepackage[garamondx,bigdelims,vvarbb]{newtxmath}
+% \usepackage[cal=boondox]{mathalfa}
+% \usepackage{textcomp}
+
+% \let\circledS\undefined
+
+% \renewcommand{\rmdefault}{phv} (Helvetica or altenative default font)
+
+%\usepackage{bookman}
+%\usepackage{charter}
+%\usepackage{newcent}
+%\usepackage{lmodern}
+%\usepackage{mathpazo}
+
+ \setkomafont{disposition}{\normalfont\bfseries} % Usual fonts for titles in Koma document classes
+
+ %\setkomafont{sectioning}{\normalfont\bfseries}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SPECIAL CHARACTERS PACKAGES %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usepackage{mathptmx}
+%\usepackage{soul}
+%\usepackage{ulem}
+\usepackage{eurosym}
+%\usepackage{marvosym}
+%\usepackage{url}
+%\usepackage{verbatim}
+%\usepackage{moreverb}
+%\usepackage{color}
+%\usepackage{colortbl}
+%\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+
+\usepackage{lipsum}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{dsfont}
+\usepackage{stmaryrd}
+\usepackage{mathtools} % Allows for use of dcases instead of cases
+% \usepackage{apxproof} % For sending proofs to appendix
+
+%\numberwithin{equation}{section}
+
+% Maths objects
+% Maths objects
+\newtheorem{definition}{Definition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{remark}{Remark}
+\newtheorem{assumption}{Assumption}
+\newtheorem{lemma}{Lemma}
+%\newtheoremrep{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+%\newtheoremrep{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+%\newtheoremrep{proposition}{Proposition}
+\newenvironment{sproof}{\renewcommand{\proofname}{Sketch of Proof}\proof}{\endproof}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\bigzero}{\makebox(0,0){\text{\huge0}}}
+\newcommand{\prob}{\mathbb{P}}
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\Esp}{\mathbb{E}}
+\newcommand{\Var}{\mathbb{V}}
+\newcommand{\Cov}{\text{Cov}}
+\newcommand{\naturals}{\mathbb{N}}
+\newcommand{\rationals}{\mathbb{Q}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\Ftribe}{\mathcal{F}}
+\newcommand{\Normal}{\mathcal{N}}
+\newcommand{\Uniform}{\mathcal{U}}
+\newcommand\bigp[1]{\bigl( #1 \bigr)}
+\newcommand\eqnotebc[1]{\quad \text{(} \because \text{#1)}}
+\newcommand{\ubar}{\overline{u}}
+\newcommand{\cbar}{\overline{c}}
+\newcommand{\pbar}{\overline{p}}
+\newcommand{\Mcal}{\mathcal{M}}
+\newcommand{\Pcal}{\mathcal{P}}
+\newcommand{\indic}[1]{\mathds{1}_{ \{ #1 \} }}
+\newcommand{\set}[1]{\{ #1 \}}
+
+
+%%%%%%%%%%%%%%%%%%%%
+% OBJECTS PACKAGES %
+%%%%%%%%%%%%%%%%%%%%
+
+%\usepackage{listings}
+
+%\usepackage{makeidx}
+%\usepackage{supertabular} % Tableaux (longs)
+%\usepackage{hyperref} % Liens hypertextes
+\usepackage{enumitem}
+
+\usepackage{graphicx} % Images
+\usepackage{wrapfig} % Figures
+\usepackage[font=small, labelfont=sc]{caption} % Mise en forme des légendes
+%\usepackage{placeins} % Allow FloatBarriers
+\usepackage{subfigure}
+\usepackage{pdfpages}
+
+\usepackage{natbib}
+\bibliographystyle{unsrtnat}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% TITLE, AUTHORS,... %
+%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Problem Set 3 \\ MA Math Camp 2021 }
+\author{ Due Date : Monday September 6th, 2021 }
+\date{  }
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\newcommand\makesimpletitle{% 
+\noindent 
+\textbf{\large \thetitle} \\
+\-\ \hspace{.2cm} { \large \theauthor } \\ 
+\-\ \hspace{.2cm} { \normalsize \thedate }
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%												%
+%		DOCUMENT 						%
+%						 						%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+
+%%% TITLEPAGE %%%
+
+%%% MAIN MATTER %%%
+
+\makesimpletitle
+
+Answers should be typed and submitted in PDF format on Gradescope (see the course website for details). Be sure to answer every question thoroughly, and try to write complete and rigorous yet concise proofs. You can contact me if you have \emph{specific} questions about the problem set, or if you think you have spotted a typo or mistake.
+
+\vspace{.5cm}
+
+\begin{enumerate}
+	
+	\item State if and where the following function are differentiable, and compute their derivative :
+	\begin{enumerate}
+		\item $f : x \mapsto \frac{1}{1+x^2}$ defined over $\reals$
+		\item $f : x \mapsto \sqrt{x^2-1}$ defined over $(1,\infty)$
+		\item $f : x \mapsto a^x$ defined over $\reals$
+		\item $f : (x,y) \mapsto cos(x) sin(y)$ over $\reals^2$
+	\end{enumerate}
+
+	\item 
+	\begin{enumerate}
+		\item Verify that Schwarz theorem (symmetry of the second order derivatives) holds for the following $C^2$ functions :
+		\begin{enumerate}
+			\item $f(x,y) : = x \exp (xy)$ 
+			\item $f(x,y) : = ln(x^2+y^2+1)$
+			\item $f(x,y) : = (y+2) tan(x)$
+		\end{enumerate}
+		\item Prove that the following function is not $C^2$ at $0$ :
+		\[
+		f(x,y) = \begin{cases}
+		\frac{x^2 y^3}{x^2+y^2} & \text{ if } (x,y) \neq (0,0)
+		\\
+		(0,0) & \text{ if } (x,y) = (0,0)
+		\end{cases}
+		\]
+		(Hint : assume that it is $C^2$ at $(0,0)$ and find a violation of Schwarz theorem)
+	\end{enumerate}
+	
+	\item Let $F: \reals^2 \rightarrow \reals$ a $C^1$ function. Show that the following function is continuous on $R^2$ :
+	\begin{align*}
+	f(x,y):= \begin{cases}
+	\frac{F(x)-F(y)}{x-y} & \text{ if } x \neq y
+	\\
+	F'(x) & \text{ if } x = y
+	\end{cases}
+	\end{align*}
+
+	\item Let $f: \reals^2 \rightarrow \reals$ a differentiable function. Differentiate the functions : $u(x)=f(x,-x)$, $g(x,y)=f(y,x)$.
+
+	\item For the following functions from a given interval $I$ to $\reals$, compute $\sup_{x \in I} f(x)$, $\inf_{x \in I} f(x)$, state if these are attained and at which point(s) :
+	\begin{enumerate}
+		\item $f(x)=x(1-x)$ on $I=[0,1]$
+		\item $f(x)=1-e^{-x}$ on $I = \reals^+$
+		\item $f(x)=3x^4 - 4x^3 + 6x^2 - 12x + 1$ on $I= \reals$
+		\item $f(x)= \frac{1}{\sqrt{x^2-x+1}}$ on $I = [0,1]$
+	\end{enumerate}
+	
+
+
+	\item Find the maximum and minimum of $f\left(x,y\right)=x^{2}-y^{2}$ on the unit circle $x^{2}+y^{2}=1$ using the Kuhn-Tucker method. Using the substitution $y^{2}=1-x^{2}$ solve the same problem as a single variable unconstrained problem. Do you get the same results? Why or why not?
+
+	\item A consumer's utility maximization problem is
+	\begin{align*}
+	\max_{\left(x,y\right)\in\mathbb{R}_{++}\times\mathbb{R}_{+}} & \alpha\ln x+y\\
+	\text{s.t.\ } & px+qy\leq m\\
+	 & y\geq0
+	\end{align*}
+	where, $\alpha>0$, $p>0$, $q>0$, $m>0$ are parameters.
+	\begin{enumerate}
+	\item Argue that the budget constraint must hold with equality.
+	\item Write the Lagrangian. State the Kuhn-Tucker necessary conditions for
+	a maximum. Are these conditions sufficient for a maximum?
+	\item Are there any admissible points where the constraint qualification
+	fails?
+	\item Solve for the maximizer $\left(x^{*},y^{*}\right)$.
+	\item Find the value function $v\left(p,q,m\right)$. What does the Envelope
+	Theorem tell you about the derivative of $v\left(p,q,m\right)$ with
+	respect to $q$?
+	\end{enumerate}
+
+	\item A firm produces two outputs, $x$ and $y$, using a single input $z$.
+	The price of $x$ has been normalized to 1; the price of $y$ is $p$.
+	The firm's program is
+	\begin{align*}
+	\max_{\left(x,y\right)\in\mathbb{R}^{2}} & x+py\\
+	\text{s.t. } & x^{2}+y^{2}\leq z\\
+	 & x\geq1,\ y\geq0
+	\end{align*}
+	$p>0$ and $z>0$ are parameters.
+	\begin{enumerate}
+	\item Write the Lagrangian.
+	\item State the Kuhn-Tucker necessary conditions for a maximum. Are these
+	conditions sufficient for a maximum?
+	\item Are there any admissible points where the constraint qualification
+	fails? Can any of these points be a solution to the program?
+	\item Solve for the maximizer $\left(x^{*},y^{*}\right)$.
+	\item Find the value function, $f^{*}\left(p,z\right)$.
+	\item What does the Envelope Theorem tell you about the derivative of $f\left(p,z\right)$
+	with respect to $z$?
+	\end{enumerate}
+	
+\end{enumerate}
+
+\end{document}

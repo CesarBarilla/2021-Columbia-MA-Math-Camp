@@ -105,6 +105,7 @@ Problem sets will be posted here. Below is a tentative schedule.
 	* Date Due : Monday September 6th
 	* [Download PDF](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Problem%20Sets/PS3_2021.pdf) 
 	* [Download TeX file](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Problem%20Sets/PS3_2021.tex)
+	* [Solutions](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Problem%20Sets/PS3_Solutions_2021.pdf)	
 
 ### References and Textbooks
 
@@ -146,4 +147,4 @@ The problem sets will have to be typed and students are encouraged to use LaTeX.
 
 ### Past Exams and Problem Sets
 
-You can find [Past Exams Here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/Past%20Exams) and [Past Problem Sets here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/Past%20Problem%20Sets).
+You can find [Past Exams and Solutions Here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/Past%20Exams) and [Past Problem Sets and Solutions here](https://github.com/CesarBarilla/Columbia-MA-Math-Camp-2021/tree/main/Past%20Problem%20Sets).

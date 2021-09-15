@@ -23,8 +23,7 @@ Welcome ! This page hosts the course material of the August 2021 Math Camp for C
 * Office Hours : TBA
 
 * Syllabus : [Download Here](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Syllabus.pdf)
-* Problem Sets : TBA
-* Exam : TBA
+
 
 ## Course Description
 
@@ -84,7 +83,7 @@ Here is a tentative course outline (each main section is a link to the correspon
 
 Lectures notes are susceptible to being continuously updated (be sure to check the date of last update, which is always mentioned at the top of the pdf).
 
-### Problem Sets
+### Problem Sets and Exam
 
 Problem sets will be posted here. Below is a tentative schedule.
 
@@ -106,6 +105,9 @@ Problem sets will be posted here. Below is a tentative schedule.
 	* [Download PDF](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Problem%20Sets/PS3_2021.pdf) 
 	* [Download TeX file](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Problem%20Sets/PS3_2021.tex)
 	* [Solutions](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Problem%20Sets/PS3_Solutions_2021.pdf)	
+
+
+[Final Exam](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Exam_2021.pdf) and [Solutions](https://cesarbarilla.github.io/Columbia-MA-Math-Camp-2021/Exam_2021_Solutions.pdf)	
 
 ### References and Textbooks
 
